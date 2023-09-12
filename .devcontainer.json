@@ -1,7 +1,29 @@
 {
-    "name": "Dive into Deep Learning",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "init": true
+  "name": "Dive into Deep Learning",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "init": true,
+  "runArgs": ["-h deep-learning"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "esbenp.prettier-vscode",
+        "ms-python.black-formatter",
+        "ms-azuretools.vscode-docker",
+        "njpwerner.autodocstring",
+        "oven.bun-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "EditorConfig.EditorConfig",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
 }
