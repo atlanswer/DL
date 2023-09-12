@@ -1,0 +1,7 @@
+{
+    "name": "Dive into Deep Learning",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "init": true
+}

@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+ENV CONDA_DIR=/opt/conda
+ENV PATH=${CONDA_DIR}/bin:${PATH}
